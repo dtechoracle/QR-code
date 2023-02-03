@@ -39,7 +39,7 @@ const QrCode = () => {
             type="text"
             value={url}
             onChange={qrCodeEncoder}
-            placeholder="Enter you whatsapp url"
+            placeholder="Enter your whatsapp url"
           />
           <button type="submit" disabled={!url}>
             Download QR code
